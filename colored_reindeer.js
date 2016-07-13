@@ -6,8 +6,10 @@ coloredReindeer =[];
 
 for (var i = 0; i < reindeer.length; i++) {
 coloredReindeer.push(colors[i] + ' ' + reindeer[i]);
+console.log(coloredReindeer[i]);
+document.getElementById("reindeer").innerText=coloredReindeer[i];
 }
-console.log(coloredReindeer);
+//console.log(coloredReindeer);
 
 /*  for (var i = 0; i < colors.length; i++) {
     for (var j = 0; j < reindeer.length; j++) {
